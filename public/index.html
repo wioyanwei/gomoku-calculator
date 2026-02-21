@@ -20,8 +20,8 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="严兵班五子棋" />
-    <meta name="description" content="A powerful and easy-to-use online Renju AI" />
+    <meta name="apple-mobile-web-app-title" content="Gomocalc" />
+    <meta name="description" content="A powerful and easy-to-use online Gomoku/Renju AI" />
     <link rel="shortcut icon" sizes="192x192" href="/icon.png" />
     <link rel="apple-touch-icon" href="/icon.png" />
     <link rel="icon" type="image/png" href="/favicon.png" />
@@ -32,7 +32,8 @@
   <body>
     <noscript>
       <strong
-        >对不起，没 JS 跑不起来，请开启 JS</strong
+        >We're sorry but Gomoku Calculator doesn't work properly without JavaScript enabled. Please
+        enable it to continue.</strong
       >
     </noscript>
     <div id="app"></div>
@@ -41,5 +42,16 @@
     <!-- Gif Encoder -->
     <script async src="/lib/gif.js"></script>
 
-     </body>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSNZ3J3X2V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-WSNZ3J3X2V')
+    </script>
+  </body>
 </html>
