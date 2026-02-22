@@ -99,20 +99,7 @@
           <p>可以使用键盘上的左/右方向键进行局面的回退/前进，HOME/END键回到局面的起始/末尾，空格键进行计算或停止计算，b/B键计算一步/两步平衡点。</p>
         </li>
         <li>
-          <p>我发现了bug？我想提出建议？</p>
-          <p>欢迎<a href='https://github.com/gomocalc/gomocalc.github.io/issues'>在此</a>提交issue反馈相应的bug或建议。</p>
-        </li>
-
-      </ul>
-      <p>&nbsp;</p>
-
-
-          </ul>
-        </li>
-
-      </ul>
-      <p>&nbsp;</p>
-     
+             
 
     <div v-else-if="$i18n.locale === 'zh-TW'">
       <h2 id='五子棋'>五子棋</h2>
@@ -1377,4 +1364,5 @@
   padding: 2% 5%;
 }
 </style>
+
 
