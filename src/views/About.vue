@@ -1,7 +1,7 @@
 <template>
   <div class="about markdown-body">
     <div v-if="$i18n.locale === 'zh-CN'">
-      <h2 id='五子棋计算器-v031'>五子棋计算器 V0.31</h2>
+      <h2 id='严兵班.五子棋'>严兵班.五子棋</h2>
       <h3 id='faq'>FAQ</h3>
       <ul>
         <li>
@@ -105,128 +105,17 @@
 
       </ul>
       <p>&nbsp;</p>
-      <h3 id='更新记录'>更新记录</h3>
-      <ul>
-        <li>
-          <p>0.31</p>
-          <ul>
-            <li>引擎更新，加入mix9svq权重</li>
-          </ul>
-        </li>
-        <li>
-          <p>0.30</p>
-          <ul>
-            <li>引擎更新，加入mix9lite权重</li>
-            <li>更多语言支持</li>
-            <li>新增键盘按键操作</li>
 
-          </ul>
-        </li>
-        <li>
-          <p>0.26</p>
-          <ul>
-            <li>修复多线程下的速度问题</li>
-            <li>权重更新</li>
-
-          </ul>
-        </li>
-        <li>
-          <p>0.25</p>
-          <ul>
-            <li>支持选点范围调节</li>
-            <li>加入胜率显示</li>
-
-          </ul>
-        </li>
-        <li>
-          <p>0.24</p>
-          <ul>
-            <li>修复着法生成的bug</li>
-            <li>更新引擎权重</li>
-
-          </ul>
-        </li>
-        <li>
-          <p>0.23</p>
-          <ul>
-            <li>加入棋力限制、后台思考功能</li>
-
-          </ul>
-        </li>
-        <li>
-          <p>0.22</p>
-          <ul>
-            <li>更新引擎，加入多线程支持</li>
-            <li>加入计算平衡点的功能</li>
-
-          </ul>
-        </li>
-        <li>
-          <p>0.21</p>
-          <ul>
-            <li>修复禁手判断的bug</li>
-
-          </ul>
-        </li>
-        <li>
-          <p>0.20</p>
-          <ul>
-            <li>更新至Rapfi2021引擎，新增支持长连不胜与连珠规则</li>
-
-          </ul>
-        </li>
-        <li>
-          <p>0.17</p>
-          <ul>
-            <li>加入置换表大小选项</li>
-
-          </ul>
-        </li>
-        <li>
-          <p>0.16</p>
-          <ul>
-            <li>优化在宽屏下的布局</li>
-            <li>加入路线预览</li>
-
-          </ul>
-        </li>
-        <li>
-          <p>0.15</p>
-          <ul>
-            <li>棋盘颜色可以修改了</li>
-            <li>支持导出高清图片与GIF</li>
-            <li>多线分析实时分数显示</li>
-
-          </ul>
-        </li>
-        <li>
-          <p>0.14</p>
-          <ul>
-            <li>加入了多点分析输出的显示</li>
-            <li>设置现在能自动保存了</li>
-
-          </ul>
-        </li>
-        <li>
-          <p>0.13</p>
-          <ul>
-            <li>修复了AI思考时回退产生的局面错误</li>
-            <li>修复了路线栏显示不全的问题</li>
 
           </ul>
         </li>
 
       </ul>
       <p>&nbsp;</p>
-      <h3 id='关于应用'>关于应用</h3>
-      <p>应用地址：<a href='https://gomocalc.com'>主站</a></p>
-      <p>本界面为开源应用，源代码地址：<a href='https://github.com/dhbloo/gomoku-calculator'>Github</a></p>
-      <p>欢迎加入使用交流群组：<a href='https://qm.qq.com/q/xj9OHByFTG'>QQ群</a>, <a
-          href='https://discord.gg/7kEpFCGdb5'>Discord</a></p>
-    </div>
+     
 
     <div v-else-if="$i18n.locale === 'zh-TW'">
-      <h2 id='五子棋計算器-v031'>五子棋計算器 V0.31</h2>
+      <h2 id='五子棋'>五子棋</h2>
       <h3 id='faq'>常見問題（FAQ）</h3>
       <ul>
         <li>
@@ -329,111 +218,7 @@
         </li>
       </ul>
       <p>&nbsp;</p>
-      <h3 id='更新記錄'>更新記錄</h3>
-      <ul>
-        <li>
-          <p>0.31</p>
-          <ul>
-            <li>引擎更新，加入mix9svq權重</li>
-          </ul>
-        </li>
-        <li>
-          <p>0.30</p>
-          <ul>
-            <li>引擎更新，加入mix9lite權重</li>
-            <li>更多語言支持</li>
-            <li>新增鍵盤按鍵操作</li>
-          </ul>
-        </li>
-        <li>
-          <p>0.26</p>
-          <ul>
-            <li>修復多線程下的速度問題</li>
-            <li>權重更新</li>
-          </ul>
-        </li>
-        <li>
-          <p>0.25</p>
-          <ul>
-            <li>支援選點範圍調節</li>
-            <li>加入勝率顯示</li>
-          </ul>
-        </li>
-        <li>
-          <p>0.24</p>
-          <ul>
-            <li>修復著法生成的bug</li>
-            <li>更新引擎權重</li>
-          </ul>
-        </li>
-        <li>
-          <p>0.23</p>
-          <ul>
-            <li>加入棋力限制、後台思考功能</li>
-          </ul>
-        </li>
-        <li>
-          <p>0.22</p>
-          <ul>
-            <li>更新引擎，加入多線程支持</li>
-            <li>加入計算平衡點的功能</li>
-          </ul>
-        </li>
-        <li>
-          <p>0.21</p>
-          <ul>
-            <li>修復禁手判斷的bug</li>
-          </ul>
-        </li>
-        <li>
-          <p>0.20</p>
-          <ul>
-            <li>更新至Rapfi2021引擎，新增支援長連不勝與連珠規則</li>
-          </ul>
-        </li>
-        <li>
-          <p>0.17</p>
-          <ul>
-            <li>加入置換表大小選項</li>
-          </ul>
-        </li>
-        <li>
-          <p>0.16</p>
-          <ul>
-            <li>優化在寬螢幕下的佈局</li>
-            <li>加入路線預覽</li>
-          </ul>
-        </li>
-        <li>
-          <p>0.15</p>
-          <ul>
-            <li>棋盤顏色可以修改了</li>
-            <li>支援導出高清圖片與GIF</li>
-            <li>多線分析即時分數顯示</li>
-          </ul>
-        </li>
-        <li>
-          <p>0.14</p>
-          <ul>
-            <li>加入了多點分析輸出的顯示</li>
-            <li>設置現在能自動保存了</li>
-          </ul>
-        </li>
-        <li>
-          <p>0.13</p>
-          <ul>
-            <li>修復了AI思考時回退產生的局面錯誤</li>
-            <li>修復了路線欄顯示不全的問題</li>
-          </ul>
-        </li>
-      </ul>
-      <p>&nbsp;</p>
-      <h3 id='關於應用'>關於應用</h3>
-      <p>應用地址：<a href='https://gomocalc.com'>主站</a></p>
-      <p>本界面為開源應用，原始碼地址：<a href='https://github.com/dhbloo/gomoku-calculator'>Github</a></p>
-      <p>歡迎加入使用交流群組：<a href='https://qm.qq.com/q/xj9OHByFTG'>QQ群</a>, <a
-          href='https://discord.gg/7kEpFCGdb5'>Discord</a></p>
-    </div>
+ 
 
     <div v-else-if="$i18n.locale === 'ko'">
       <h2 id='오목 계산기-v031'>오목 계산기 V0.31</h2>
@@ -1592,3 +1377,4 @@
   padding: 2% 5%;
 }
 </style>
+
