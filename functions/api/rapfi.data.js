@@ -1,14 +1,14 @@
 export async function onRequest(context) {
-  // 请确保这个 URL 在无痕模式下可以直接下载文件
   const githubUrl = "https://github.com/wioyanwei/gomoku-calculator/releases/download/v1.0/rapfi.data";
   
   const response = await fetch(githubUrl, {
     redirect: 'follow'
   });
   
-  // 如果 GitHub 返回 404 等错误，直接抛出，方便在 Network 面板排查
-  if (!response.ok) {
-    return new Response("Failed to fetch weights from GitHub", { status: response.status });
+  // 检查返回的内容类型，如果 GitHub 返回了 HTML（比如登录页或404页），直接报错拦截
+  const contentType = response.headers.get("content-type") || "";
+  if (contentType.includes("text/html")) {
+    return new Response("Error: GitHub returned an HTML page instead of the binary weights file. Check if the repo is public.", { status: 500 });
   }
   
   const newResponse = new Response(response.body, response);
