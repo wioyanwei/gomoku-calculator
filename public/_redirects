@@ -1,1 +1,3 @@
 /build/rapfi.data /api/rapfi.data 200
+/build/rapfi-multi-simd128-relaxed.js /rapfi-multi-simd128-relaxed.js 200
+/build/rapfi-multi-simd128-relaxed.wasm /rapfi-multi-simd128-relaxed.wasm 200
